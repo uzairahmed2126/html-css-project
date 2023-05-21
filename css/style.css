@@ -205,6 +205,8 @@ pre {
 
 .languages .card:hover {
   transform: translateY(-15px);
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 /* Features */
