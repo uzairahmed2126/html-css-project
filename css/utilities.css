@@ -108,7 +108,7 @@
 .btn-light {
   background-color: var(--light-color);
   color: #333;
-}
+} 
 .bg-primary a,
 .btn-primary a,
 .bg-secondary a,
@@ -117,6 +117,7 @@
 .btn-dark a{
   color: #fff;
 }
+
 /* .bg-success,
 .btn-success {
   background-color: var(--success-color);
@@ -127,6 +128,20 @@
   background-color: var(--error-color);
   color: #fff;
 } */
+
+/* Text colors */
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+.text-dark {
+  color: var(--dark-color);
+}
+.text-light {
+  color: var(--light-color);
+} 
 /* Text sizes */
 .lead {
   font-size: 20px;
@@ -143,13 +158,32 @@
 .xl {
   font-size: 4rem;
 }
-.flex {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  height: 100%;
+.text-center {
   text-align: center;
-  margin-left: 0 auto;
+}
+/* Alert */
+.alert {
+  background: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.alert i {
+  margin-right: 10px ;
+}
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+.alert-error {
+  background: var(--error-color);
+  color: #fff;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .grid {
